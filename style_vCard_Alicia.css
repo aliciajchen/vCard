@@ -1,0 +1,186 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+h2{
+  font-size: 15px;
+}
+
+.flex{
+  display: flex;
+}
+
+
+.main-container{
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.container{
+  min-height: 100vh;
+}
+
+.left{
+  width: 20%;
+  background-color: #02c1cb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5vh;
+  /*box-sizing: border-box;*/
+}
+
+.middle{
+  width: 30%;
+  /*background-color: yellow;*/
+  /*background-color: #240099;*/
+}
+
+.right{
+  width: 50%;
+  /*background-color: blue;*/
+  /*background-color: #240099;*/
+}
+
+
+.main-image{
+  background-image: url("https://i.ibb.co/02zypqS/Screenshot-2022-01-17-at-10-06-49.png");
+  height: 70vh;
+  /*width: 100%;*/
+  justify-content:flex-end;
+  align-items: center;
+  background-size: cover;
+  background-position: left;
+  box-shadow: 35px 30px 90px -20px;
+}
+
+.deco-color{
+  height: 15vh;
+  width: 40%;
+  background-color:#02c1cb;
+
+}
+
+.logo{
+  width: 200px;
+  height: 200px;
+  background-image: url("https://i.ibb.co/c8ZjYqB/Minimal-Floral-Decorated-Logo-Template.png");  
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 0;
+}
+
+.right-left{
+  /*background-color:white;*/
+  width: 10%;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.right-middle{
+  /*background-color:white;*/
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.right-right{
+  /*background-color:white;*/
+  width: 20%;
+  justify-content:flex-end;
+  padding:5vh;
+}
+
+.hamb{
+  font-size: 30px;
+  /*color:red;*/
+}
+
+.line{
+  height: 4px;
+  width: 30px;
+  background-color:#02c1cb;
+  margin-bottom: 30vh;
+}
+
+.second-line{
+  height: 4px;
+  width: 80px;
+  background-color:#02c1cb;
+  margin-bottom: 30vh;
+}
+
+.main-infos{
+  width: 80%;
+}
+
+.btn{
+  padding: 15px 30px;
+  border-radius: 40px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.btn-port {
+  background-color: #02c1cb;
+  border: none;
+  color: #f8f7f1;
+  margin-right: 2.5vh;
+}
+
+.btn-res{
+  background-color:white;
+  border: 1px solid black;
+}
+
+
+.btn-port:hover{
+  background-color:white;
+  border: 1px solid black;
+  color: black;
+}
+
+.btn-res:hover{
+  background-color: #02c1cb;
+  border: none;
+  color: #f8f7f1;
+}
+
+.main-infos h1 span{
+  text-transform: uppercase;
+  color: #02c1cb;
+}
+
+.main-infos h1{
+  margin-bottom: 2.5vh;
+}
+
+.main-infos h2{
+  margin-bottom: 5vh;
+}
+
+.main-infos p{
+  margin-bottom: 2.5vh;
+}
+
+.social-icons{
+  display: flex;
+  justify-content:space-between;
+}
+
+.infos-container{
+  color: #f8f7f1;
+}
+
+.infos-container h2{
+  margin-bottom:1.75vh;
+}
+.infos-container p{
+  margin-bottom: 5vh;
+}
